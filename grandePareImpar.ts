@@ -10,6 +10,7 @@ número es par o impar*/
 let num: number[] = [4, 7, 9, 3, 1, 45, 67, 23, 29, 78, 11, 16];
 //Funciones
 let mayor: number = 0;
+
 let determinarMayor = (): number => {
     for (let i: number = 0; i < num.length; i++) {
         if (num[i] > mayor) {
@@ -25,7 +26,6 @@ let esPar = (a: number): void => {
 
 };
 //resultados
-let resultado: number = determinarMayor();
-console.log(resultado);
-esPar(resultado);
-
+let resultadoFinal = determinarMayor();
+console.log(resultadoFinal);
+esPar(resultadoFinal);
