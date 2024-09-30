@@ -18,10 +18,9 @@ let long: number = arreglo.length;
 for (let i: number = 0; i < long; i++) {
     arreglo[i] = fs.questionInt("agregue un numero al arreglo: ");
 };
-
 //imprimir invertido
 console.log(arreglo);
-for (let i: number = long; i > -1; i--) {
+for (let i: number = long - 1; i >= 0; i--) {
     let acumula: number = arreglo[i];
     console.log(acumula);
 };
