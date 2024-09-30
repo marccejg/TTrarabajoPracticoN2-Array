@@ -1,2 +1,2 @@
-# TTrarabajoPracticoN2-Array
+# TrarabajoPracticoN2-Array
 Trabajo Practico N°2: Array
