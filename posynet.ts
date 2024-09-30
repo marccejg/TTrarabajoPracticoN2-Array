@@ -27,7 +27,7 @@ for (let i: number = 0; i < long; i++) {
     if (arreglo[i] < 0) {
         cuentaMenor = cuentaMenor + 1;
 
-    } if (arreglo[i] > 0) {
+    } else if (arreglo[i] > 0) {
         cuentaMayor = cuentaMayor + 1
 
     };
