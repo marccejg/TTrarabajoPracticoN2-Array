@@ -35,4 +35,4 @@ for (let i: number = 0; i < longResultado; i++) {
 
 };
 
-console.log(resultado)
+console.log(resultado);
