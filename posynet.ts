@@ -19,7 +19,7 @@ let arreglo: number[] = new Array(tam);
 //agrega al array
 
 
-let long: number = arreglo.length
+let long: number = arreglo.length;
 
 for (let i: number = 0; i < long; i++) {
     arreglo[i] = fs.questionInt("agregue un numero al arreglo: ");
@@ -28,14 +28,14 @@ for (let i: number = 0; i < long; i++) {
 };
 for (let i: number = 0; i < long; i++) {
     if (arreglo[i] < 0) {
-        cuentaMenor = cuentaMenor + 1
+        cuentaMenor = cuentaMenor + 1;
 
     };
 };
 
 for (let i: number = 0; i < long; i++) {
     if (arreglo[i] > 0) {
-        cuentaMayor = cuentaMayor + 1
+        cuentaMayor = cuentaMayor + 1;
 
     };
 };
@@ -43,7 +43,7 @@ for (let i: number = 0; i < long; i++) {
 
 for (let i: number = 0; i < long; i++) {
     if (arreglo[i] === 0) {
-        cuentaCero = cuentaCero + 1
+        cuentaCero = cuentaCero + 1;
 
     };
 };
