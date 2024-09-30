@@ -21,7 +21,7 @@ for (let i: number = 0; i < long; i++) {
 
 //imprimir invertido
 console.log(arreglo);
-for (let i:number=long ; i > -1; i--) {
-    let acumula: number=arreglo[i];
-    console.log (acumula);
+for (let i: number = long; i > -1; i--) {
+    let acumula: number = arreglo[i];
+    console.log(acumula);
 };
