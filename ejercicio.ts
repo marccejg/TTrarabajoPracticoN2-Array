@@ -10,12 +10,14 @@ for (let i: number = 0; i < nombre.length; i++) {
     nombre[i] = fs.question("agregue un nombre: ");
     console.log(nombre[i]);
 };
-//debuelve ubicacion
+//devuelve ubicacion
 for (let i: number = 0; i < nombre.length; i++) {
-    console.log(`el elemento en ${i} es ${nombre[i]}`)
+    console.log(`el elemento en ${i} es ${nombre[i]}`);
 };
 
-/*br*/
+/*
+*
+*/
 
 
 let num2: number[] = new Array(3);
