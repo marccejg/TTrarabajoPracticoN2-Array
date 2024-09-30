@@ -8,7 +8,7 @@ paquete Math:
 console.clear();
 import * as fs from 'readline-sync';
 let aleatorio: number[] = new Array(10);
-let top: number = aleatorio.length
+let top: number = aleatorio.length;
 
 for (let i = 0; i < top; i++) {
     aleatorio[i] = Math.round(Math.random() * 10)
